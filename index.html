@@ -12,23 +12,68 @@
 
 <style> 
 
+.head {
+  text-align: center;
+  color: palevioletred;
+}
+
 div.img {
-  width: 400px;
-  height: 400px;
+  width: 1000px;
+  height: 1000px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+.caption {
+  text-align: center;
+  margin-bottom: 7em;
+  font-family: sans-serif, Times;
+  font-size: 30px;
+  color: palevioletred;
+  font-weight: bold;
+  
+}
+
+.vdo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10em;
+  
 }
 
 </style>
 <body>
 
-<div class="container-fluid">
-  <h1>My First Website</h1>
-  <p>หน้าเว็บแรกในชีวิต</p> 
-<p>ภูมิใจ! เขียนเองกับมือ ไม่ได้ใช้ตรีนแต่อย่างใด สุดจัดปลัดบอก ขนาดปลัดลาออกยังต้องนั่งสองแถวกลับมาบอกว่าสุดจัด </p>
+<div class="container-fluid head">
+  <h1>Hello Tatah :)</h1>
 </div>
  
-<div class="img"> 
-    <img src="sontah.jpg" class="img-fluid">
+  <video width="1200" height="400" controls class="vdo">
+    <source src="tcs.mp4" type="video/mp4">
+    <source src="tcs.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+  </video>
+
+
+
+<div class="img img-fluid"> 
+    <img src="1.jpg" alt="1">
+    <p class="caption">เจอกันครั้งแรกในค่าย NC2014 แบบไม่ได้คุยกัน 555</p>
+
+    <img src="2.jpg" alt="2">
+    <p class="caption">ต๋ามาโบสถ์ครั้งแรก จากแผนการอันแยบยล เราเลยได้เจอกันอีกครั้ง</p>
+
+    <img src="3.jpg" alt="3">
+    <p class="caption">รูปคู่รูปแรก ในการเซอไพร้วันเกิด ซันแอบไปหาต๋าที่ศิริราชกลางดึก</p>
+
+    <img src="4.jpg" alt="4">
+    <p class="caption">ครบรอบ 2 เดือนแล้ว :) วันนี้เราสารภาพความจริงกันว่า เรามาคบกันได้ยังไง เรื่องมันซับซ้อนมากจริงๆ</p>
+
 </div>
+
+
 
 </body>
 </html>
