@@ -35,26 +35,39 @@ div.img {
   
 }
 
-.vdo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 10em;
-  
-}
-
 </style>
+
+<style>
+    .embed-container 
+      { 
+        position: relative; 
+        padding-bottom: 56.25%; 
+        height: 0; 
+        overflow: hidden; 
+        max-width: 100%; 
+        margin-bottom: 10em;
+        } 
+    .embed-container iframe, .embed-container object, .embed-container embed 
+    { 
+      position: absolute; 
+      top: 0; 
+      left: 0; 
+      width: 100%; 
+      height: 100%; 
+      }
+      </style>
+
 <body>
 
 <div class="container-fluid head">
   <h1>Hello Tatah :)</h1>
 </div>
  
-  <video width="1200" height="400" controls class="vdo">
-    <source src="tcs.mp4" type="video/mp4">
-    <source src="tcs.ogg" type="video/ogg">
-  Your browser does not support the video tag.
-  </video>
+  
+  <div class='embed-container'>
+    <iframe src='https://www.youtube.com/embed//YFgQp4YYt6Q' frameborder='0' allowfullscreen>
+    </iframe>
+  </div>
 
 
 
