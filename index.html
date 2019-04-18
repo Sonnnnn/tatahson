@@ -38,6 +38,17 @@
   font-weight: bold;
 }
 
+/* Bullet */
+.bullet {
+  text-align: left;
+  font-family: sans-serif, Times;
+  font-style: italic;
+  font-size: 25px;
+  color: black;
+  font-weight: lighter;
+  margin-bottom: 3em;
+}
+
 
 /* Caption of photos */
 .caption {
@@ -49,11 +60,7 @@
   font-weight: bold;
 }
 
-/*
-.img {
-  max-width: 20cm;
-} 
-*/
+
  
  /*VDO responsive */
 .embed-container { 
@@ -73,6 +80,18 @@
     width: 100%; 
     height: 100%;       
   }
+
+
+mark {
+  background-color: rosybrown;
+  color: whitesmoke;
+}
+
+
+.button {
+  text-align: center
+
+}
 
 </style>
 
@@ -126,13 +145,13 @@
 </div>
 
 <div class="img"> 
-    <img src="9.jpg" alt="10" class="img-thumbnail rounded mx-auto d-block">
+    <img src="9.jpg" alt="9" class="img-thumbnail rounded mx-auto d-block">
     <p class="caption">จังหวะนี้คือเราทะเลาะกัน แล้วซันแอบไปซื้อดอกไม้เพื่อง้อขอคืนดี</p>
 
-    <img src="10.jpg" alt="11" class="img-thumbnail rounded mx-auto d-block">
+    <img src="10.jpg" alt="10" class="img-thumbnail rounded mx-auto d-block">
     <p class="caption">รูปนี้ก็ถือกำเนิดมาจากการทะเลาะกันของเรา T_T</p>    
 
-    <img src="11.jpg" alt="12" class="img-thumbnail rounded mx-auto d-block">
+    <img src="11.jpg" alt="11" class="img-thumbnail rounded mx-auto d-block">
     <p class="caption">จริงๆจะว่าไป เราก็ทะเลาะกันบ่อยอยู่นะ :p</p>        
 
 
@@ -144,16 +163,16 @@
     </div>
 
     <div class="img img-fluid"> 
-      <img src="12.jpg" alt="13" class="img-thumbnail rounded mx-auto d-block">
+      <img src="12.jpg" alt="12" class="img-thumbnail rounded mx-auto d-block">
       <p class="caption">ซันไปลำบากที่ไหน ต๋าก็ตามไปลำบากที่นั่น</p>
 
-      <img src="13.jpg" alt="14" class="img-thumbnail rounded mx-auto d-block">
+      <img src="13.jpg" alt="13" class="img-thumbnail rounded mx-auto d-block">
       <p class="caption">นั่งเรือเข้าป่าเขา ต๋าก็ไปด้วยกันกับซัน</p>
 
-      <img src="14.jpg" alt="15" class="img-thumbnail rounded mx-auto d-block">
+      <img src="14.jpg" alt="14" class="img-thumbnail rounded mx-auto d-block">
       <p class="caption">ต๋าสนับสนุนทุกอย่างที่ซันทำ ช่วยวาดโลโก้เพจพี่ซันให้ ช่วยรีวิวหลายบทความ ช่วยเป็นกำลังใจในการทำเพจ</p>
 
-      <img src="15.jpg" alt="16" class="img-thumbnail rounded mx-auto d-block">
+      <img src="15.jpg" alt="15" class="img-thumbnail rounded mx-auto d-block">
       <p class="caption">ขอให้มาช่วยถ่ายรูป ก็มาช่วยได้</p>
 
       <img src="16.jpg" alt="16" class="img-thumbnail rounded mx-auto d-block">
@@ -161,10 +180,38 @@
 
   </div>
 
-  <p class="text-primary">Will you spend the rest of your life with me?</p>
+  <div class="container-fluid">
+    <h2 class="subhead">มีอีกหลายอย่าง ที่ต๋าเป็นคนช่วยสนับสนุนอยู่เบื้องหลัง และเว็บนี้ไม่มีพื้นที่พอจะเขียนครบทุกอย่างหรอกนะ :D</h2>
+    <p class="statement">สำหรับซัน ต๋าไม่ได้เป็นแค่แฟนเอาไว้คุยโทรศัพท์ แต่ต๋าเป็นเหมือนเพื่อนซี้ เพื่อนช่วยงาน คนให้กำลังใจ และผู้สนับสนุนทุกอย่างในสิ่งที่ซันทำ</p>
+    <p class="statement">ขอยอมรับว่า ในช่วงแรกที่เราคบกัน ด้วยความที่ซันโตกว่า ทำให้ซันรู้สึกว่า ต๋าจะต้องเรียนรู้จากซันหลายอย่างแน่เลย</p>
+    <p class="statement">แต่เมื่อเวลาผ่านมา ซันต้องบอกว่า ไม่ใช่ต๋าที่เรียนรู้จากซันหรอก</p>
+    <p class="statement"><mark>แต่เป็นซันต่างหาก ที่ได้เรียนรู้จากต๋า</mark></p>
 
-  <div class="d-inline p-2 bg-primary text-white botton">Yes, I'm ready</div>
-<div class="d-inline p-2 bg-dark text-white button">No</div>
+    <div class="img img-fluid"> 
+      <img src="17.jpg" alt="17" class="img-thumbnail rounded mx-auto d-block">
+    </div>
+
+    <h2 class="subhead">ต๋าสอนให้ซันเข้าว่า “ความรัก” คืออะไร ความรักไม่ใช่อารมณ์ฟินๆยามที่เรามีความสุข</h2>
+      
+    <ul class="bullet">
+      <li><span style="background-color: rgb(228, 204, 208)">ความรักคือ</span> การที่เราไม่ต้องรอให้อีกฝ่ายดีพอ แต่รักในขณะที่อีกฝ่ายยังดีไม่พอ</li>
+      <li><span style="background-color: rgb(228, 204, 208)">ความรักคือ</span> การที่เรายอมรับว่าอีกคนไม่ได้เป็นแบบที่เราต้องการทุกอย่าง แต่เรารักในแบบนั้น</li>
+      <li><span style="background-color: rgb(228, 204, 208)">ความรักคือ</span> การที่เราพูดขอโทษ แม้จะรู้สึกว่าอีกฝ่ายผิด แต่เพราะเราอยากคืนดีกัน</li>
+      <li><span style="background-color: rgb(228, 204, 208)">ความรักคือ</span> การอุทิศตัว ไม่ว่าจะเกิดอะไรขึ้น เราจะยังรักกันและกัน</li>
+    </ul>
+    <h2 class="statement"><mark>ต๋าสอนซันให้รู้จักคำว่า “ความรัก” จริงๆ</mark></h2>
+
+    <p class="statement">และหลังจากเราคบกันมา 4 ปีกว่าแล้ว ซันคิดว่าถึงเวลาที่เหมาะสม ที่จะถามคำถามนี้กับต๋าแล้วล่ะ</p>
+</div>
+
+<div class="img img-fluid"> 
+  <img src="18.jpg" alt="18" class="img-thumbnail rounded mx-auto d-block">
+</div>
+
+  <h1 class="subhead">Will you spend the rest of your life with me?</h1>
+
+  <button type="button" class="btn btn-primary btn-lg button">Yes I'm ready</button>
+  <button type="button" class="btn btn-secondary btn-lg button" disabled>No</button>
 
 </body>
 </html>
