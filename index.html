@@ -89,8 +89,17 @@ mark {
 
 
 .button {
-  text-align: center
+  text-align: center;
+  margin-bottom: 10em;
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
+.question {
+  margin-top: 1.5em;
+  text-align: center;
+  color: darkblue;
+  margin-bottom: 30px;
 }
 
 </style>
@@ -208,10 +217,17 @@ mark {
   <img src="18.jpg" alt="18" class="img-thumbnail rounded mx-auto d-block">
 </div>
 
-  <h1 class="subhead">Will you spend the rest of your life with me?</h1>
+  <h1 class="question">Are you ready to spend the rest of your life with me?</h1>
 
-  <button type="button" class="btn btn-primary btn-lg button">Yes I'm ready</button>
+  <div align="center" margin:10px;>
+  <button type="button" class="btn btn-primary btn-lg button" onclick="alertBox()">Yes I'm ready</button>
   <button type="button" class="btn btn-secondary btn-lg button" disabled>No</button>
+</div>
 
 </body>
 </html>
+
+<script>
+  function alertBox(){
+alert("ยินดีด้วย คุณตัดสินใจถูกต้อง :)");}
+</script>
